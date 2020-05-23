@@ -10,7 +10,7 @@ root.title("PasswordGenerator")
 def show_info(head,body):
     messagebox.showinfo(head, body)
 def about_us():
-    show_info("Password Generator","This is an simple application to generate a password.It uses a random function")
+    show_info("Password Generator","This is an simple application to generate a password.It uses a random function in python to generate a password")
 menubar = Menu(root)
 root.config(menu=menubar)
 subMenu=Menu(menubar,tearoff=0)
